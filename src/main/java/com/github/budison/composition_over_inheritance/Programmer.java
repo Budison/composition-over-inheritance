@@ -7,6 +7,6 @@ class Programmer implements Employee {
 
     @Override
     public void work() {
-        // program computer
+        System.out.println("Programmer is coding...");
     }
 }

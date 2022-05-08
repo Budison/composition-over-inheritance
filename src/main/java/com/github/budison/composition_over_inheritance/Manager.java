@@ -16,6 +16,7 @@ class Manager implements Employee {
 
     @Override
     public void work() {
+        System.out.print("Manager is delegating... ");
         report.work();
     }
 }
