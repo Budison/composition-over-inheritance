@@ -1,4 +1,4 @@
-package com.github.budison.composition_over_inheritance;
+package com.github.budison.composition_over_inheritance.delegation;
 
 public class Main {
 
