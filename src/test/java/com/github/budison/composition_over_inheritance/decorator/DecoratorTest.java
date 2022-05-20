@@ -8,11 +8,11 @@ public class DecoratorTest {
     @Test
     public void testForCorrectPriceOfBurritosWithoutExtrasAndWithExtras() {
         // Given
-        Burrito noExtra = new StandardBurrito();
+        Burrito noExtras = new StandardBurrito();
         Burrito oneExtra = new Guacamole(new SuperBurrito());
         Burrito twoExtras = new Jalapeno(new Guacamole(new SuperBurrito()));
         // Then
-        assertEquals(noExtra.getPrice(), 5.99);
+        assertEquals(noExtras.getPrice(), 5.99);
         assertEquals(oneExtra.getPrice(), 7.59);
         assertEquals(twoExtras.getPrice(), 8.09);
     }
